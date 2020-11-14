@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-LOCAL_PATH := device/xiaomi/beryllium
+LOCAL_PATH := device/xiaomi/equuleus
 
 # Architecture
 TARGET_ARCH := arm64
@@ -80,7 +80,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Recovery
-TARGET_OTA_ASSERT_DEVICE := beryllium
+TARGET_OTA_ASSERT_DEVICE := equuleus
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 
@@ -105,8 +105,8 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
 TW_MAX_BRIGHTNESS := 1023
 TW_DEFAULT_BRIGHTNESS := 420
-TW_Y_OFFSET := 86
-TW_H_OFFSET := -86
+TW_Y_OFFSET := 80
+TW_H_OFFSET := -80
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_SUPERSU := true
 TW_EXTRA_LANGUAGES := true

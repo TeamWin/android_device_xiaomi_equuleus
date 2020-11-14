@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_beryllium-userdebug
-add_lunch_combo omni_beryllium-eng
+add_lunch_combo omni_equuleus-userdebug
+add_lunch_combo omni_equuleus-eng
 
