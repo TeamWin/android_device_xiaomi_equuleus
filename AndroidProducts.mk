@@ -16,3 +16,6 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_equuleus.mk
 
+COMMON_LUNCH_CHOICES := \
+    omni_equuleus-userdebug \
+    omni_equuleus-eng
